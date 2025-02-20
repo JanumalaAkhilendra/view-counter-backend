@@ -10,7 +10,7 @@
 <body>
   <p id="viewCount">Loading...</p>
   <script>
-  fetch("http://localhost:5000/admin/views", {
+  fetch("https://view-counter-backend.onrender.com/admin/views", {
   headers: { "token": "your-secret-token" }
 })
   .then(res => res.json())
